@@ -7,7 +7,7 @@
   background-color: var(--backdrop-color);
   transition: visibility 0.4s linear, opacity 0.4s linear;
 }
-.is__hidden {
+.is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
@@ -25,7 +25,7 @@
   height: 581px;
   border-radius: 1px;
 }
-.is__hidden .modal {
+.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0) rotate(30deg);
 }
 .button__close-modal {
@@ -39,6 +39,7 @@
   position: absolute;
   top: 8px;
   right: 8px;
+  cursor: pointer;
 
   &:hover,
   &:focus {
@@ -102,7 +103,7 @@
 }
 .icon__modal {
   position: absolute;
-  top: 25px;
+  top: 28px;
   left: 12px;
 }
 .form__input-comment {
@@ -179,6 +180,6 @@
   padding: 10px 76px;
   margin-left: auto;
   margin-right: auto;
+  cursor: pointer;
   margin-top: 30px;
-  margin-bottom: 40px;
 }

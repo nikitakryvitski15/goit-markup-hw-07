@@ -15,4 +15,23 @@
 }
 .social__media-icons {
   margin-right: 10px;
+  cursor: pointer;
+}
+.social__media-links {
+  display: flex;
+  border-radius: 50%;
+  background-color: var(--icon-footer-color);
+  padding: 12px;
+  cursor: pointer;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--hover-color);
+  }
+}
+.social__media-icon {
+  fill: var(--white-color);
 }
