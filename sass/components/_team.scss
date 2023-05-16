@@ -1,0 +1,53 @@
+.team--section {
+  background-color: var(--background-button);
+}
+.card__team {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+  margin-top: 50px;
+}
+.shadow__card {
+  box-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024,
+    0px 1px 3px 0px #0000001f;
+  background-color: var(--white-color);
+}
+.text-image-card {
+  text-align: center;
+}
+.john__card {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.1;
+  text-align: center;
+  padding-top: 30px;
+}
+.john__job-card {
+  font-size: 16px;
+  line-height: 1.1;
+  color: var(--contacts-color);
+  padding-top: 10px;
+  padding-bottom: 16px;
+}
+.icons__card {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  gap: 10px;
+  fill: currentColor;
+}
+.icons__card-links {
+  padding: 12px;
+  border-radius: 50%;
+  fill: var(--company-color);
+  display: flex;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--hover-color);
+    fill: var(--white-color);
+  }
+}

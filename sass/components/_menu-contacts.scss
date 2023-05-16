@@ -1,0 +1,29 @@
+.menu-header2 {
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--contacts-color);
+  gap: 50px;
+}
+.menu__header-link {
+  color: var(--contacts-color);
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon__menu-header {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+.icon--smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+}

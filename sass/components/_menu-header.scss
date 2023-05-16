@@ -1,0 +1,26 @@
+.menu-header {
+  display: flex;
+  gap: 46px;
+}
+.menu-header:hover,
+.menu-header:focus {
+  color: #2196f3;
+}
+.menu-header a {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--brand-color);
+}
+.menu__header-underline {
+  position: relative;
+}
+.menu__header-underline::after {
+  content: "";
+  position: absolute;
+  top: 48px;
+  width: 53px;
+  height: 4px;
+  display: block;
+  background-color: var(--hover-color);
+  border-radius: 2px;
+}

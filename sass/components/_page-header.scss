@@ -1,0 +1,15 @@
+.solution-container {
+  border-bottom: 1px solid var(--border-buttom);
+}
+.container__header {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-primary);
+  font-weight: 500;
+}
+.nav__header {
+  display: flex;
+  align-items: center;
+}
