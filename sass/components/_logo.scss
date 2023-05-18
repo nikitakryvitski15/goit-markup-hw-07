@@ -1,4 +1,4 @@
-.logo__header-footer {
+.logo {
   font-family: var(--font-secondary);
   font-weight: 700;
   font-size: 26px;
@@ -6,9 +6,9 @@
   color: var(--hover-color);
   margin-right: 93px;
 }
-.studio__header-footer {
+.logo--dark {
   color: var(--studio-color);
 }
-.studio--2 {
+.studio--white {
   color: var(--white-color);
 }

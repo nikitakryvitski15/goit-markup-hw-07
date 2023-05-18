@@ -1,4 +1,4 @@
-.menu-header2 {
+.menu-two {
   display: flex;
   font-size: 14px;
   font-weight: 500;
@@ -6,7 +6,8 @@
   color: var(--contacts-color);
   gap: 50px;
 }
-.menu__header-link {
+.menu__header-link,
+.contacts-menu {
   color: var(--contacts-color);
   font-size: 14px;
   font-weight: 500;

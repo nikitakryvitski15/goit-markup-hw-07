@@ -1,16 +1,16 @@
 .section--padding {
   padding-top: 0;
 }
-.photo__img-section {
+.images-section {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
 }
-.img__and-title {
+.images {
   position: relative;
   display: inline-flex;
 }
-.img__title {
+.images__title {
   position: absolute;
   left: 0;
   right: 0;
