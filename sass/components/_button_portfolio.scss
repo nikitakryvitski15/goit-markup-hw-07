@@ -1,11 +1,11 @@
-.button-list {
+.filters {
   justify-content: center;
   color: var(--brand-color);
   display: flex;
   column-gap: 8px;
   margin-bottom: 50px;
 }
-.button__item {
+.filters__btn {
   border: none;
   font-size: 16px;
   border-radius: 4px;

@@ -1,7 +1,7 @@
 .media-footer {
   margin-top: 12px;
 }
-.text-join-footer {
+.header__media-footer {
   font-family: var(--font-primary);
   font-weight: 700;
   font-size: 14px;
@@ -17,7 +17,7 @@
   margin-right: 10px;
   cursor: pointer;
 }
-.social__media-links {
+.social__media-link {
   display: flex;
   border-radius: 50%;
   background-color: var(--icon-footer-color);

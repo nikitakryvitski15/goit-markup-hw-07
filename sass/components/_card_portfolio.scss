@@ -1,10 +1,10 @@
-.container-card {
+.portfolio {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 30px;
 }
-.border-card {
+.portfolio__card {
   border: 1px solid #eeeeee;
   cursor: pointer;
   transition-property: color;
@@ -17,7 +17,7 @@
       0px 1px 1px 0px #0000001f;
   }
 }
-.img__container {
+.portfolio__overlay {
   position: relative;
   overflow: hidden;
 
@@ -28,7 +28,7 @@
     object-fit: cover;
   }
 }
-.card__description {
+.portfolio__description {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -43,15 +43,15 @@
   transform: translateY(100%);
   transition: transform 0.3s ease-in;
 }
-.border-card:hover .card__description {
+.portfolio__card:hover .portfolio__description {
   transform: translateY(0);
 }
-.img-name {
+.portfolio__title {
   font-size: 18px;
   line-height: 2;
   padding: 20px 24px 4px 24px;
 }
-.img__descripcion {
+.portfolio__subtitle {
   font-size: 16px;
   line-height: 1.8;
   color: var(--contacts-color);

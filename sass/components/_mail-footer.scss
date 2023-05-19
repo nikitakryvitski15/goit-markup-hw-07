@@ -1,7 +1,7 @@
 .mail-footer {
   margin-top: 12px;
 }
-.text-news {
+.header__mail-footer {
   font-family: var(--font-primary);
   font-weight: 700;
   font-size: 14px;
@@ -20,7 +20,7 @@
   margin-right: 12px;
   color: var(--white-color);
 }
-.submit__send-footer {
+.submit__footer {
   background-color: var(--hover-color);
   border: 1px solid var(--hover-color);
   border-radius: 4px;

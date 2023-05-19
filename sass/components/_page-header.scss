@@ -1,4 +1,4 @@
-.header-section {
+.header {
   border-bottom: 1px solid var(--border-buttom);
 }
 .container__header {
@@ -9,7 +9,7 @@
   font-family: var(--font-primary);
   font-weight: 500;
 }
-.nav__header {
+.header__nav {
   display: flex;
   align-items: center;
 }
