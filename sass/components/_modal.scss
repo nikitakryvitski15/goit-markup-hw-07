@@ -28,7 +28,7 @@
 .is-hidden .modal {
   transform: translate(-50%, -50%) scale(0) rotate(30deg);
 }
-.button__close-modal {
+.modal__button-close {
   width: 30px;
   height: 30px;
   border: 1px solid #0000001a;
@@ -49,7 +49,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
-.header__modal {
+.header-modal {
   font-size: 20px;
   text-align: center;
   font-weight: 700;
@@ -58,7 +58,7 @@
   margin-bottom: 30px;
   margin-top: 40px;
 }
-.form__list-modal {
+.form-list-modal {
   display: flex;
   flex-direction: column;
 }
@@ -167,7 +167,7 @@
   display: inline;
   color: var(--hover-color);
 }
-.button-modal {
+.submit-modal {
   font-size: 16px;
   line-height: 1.6;
   background-color: var(--hover-color);

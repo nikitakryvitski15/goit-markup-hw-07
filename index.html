@@ -43,7 +43,7 @@
             </li>
           </ul>
         </nav>
-        <ul class="header__contacts">
+        <ul class="header-contacts">
           <li>
             <a class="header__contacts-item" href="mailto:info@devstudio.com">
               <svg class="header__contacts-icon">
@@ -64,20 +64,20 @@
       </div>
     </header>
     <main>
-      <section class="section section--box">
+      <section class="section slogan">
         <div class="container">
-          <h1 class="section__effects">
+          <h1 class="slogan__tittle">
             EFEKTYWNE ROZWIĄZANIA<br />
             DLA WASZEGO BIZNESU
           </h1>
-          <button data-modal-open type="button" class="button__effects">
+          <button data-modal-open type="button" class="slogan__button">
             Zamów usługe
           </button>
         </div>
       </section>
       <section class="section">
         <div class="container">
-          <ul class="section__lorems">
+          <ul class="lorems">
             <li>
               <svg class="icon__lorems">
                 <use href="./images/icons.svg#icon-antenna"></use>
@@ -124,9 +124,9 @@
       <section class="section section--padding">
         <div class="container">
           <h2 class="section__header">Czym się zajmujemy</h2>
-          <ul class="section-images">
+          <ul class="images">
             <li>
-              <figure class="images">
+              <figure class="images__item">
                 <img
                   src="images/fot_1.jpg"
                   width="370"
@@ -139,7 +139,7 @@
               </figure>
             </li>
             <li>
-              <figure class="images">
+              <figure class="images__item">
                 <img
                   src="images/fot_2.jpg"
                   width="370"
@@ -150,7 +150,7 @@
               </figure>
             </li>
             <li>
-              <figure class="images">
+              <figure class="images__item">
                 <img
                   src="images/fot_3.jpg"
                   width="370"
@@ -351,7 +351,7 @@
       <section class="section">
         <div class="container">
           <h2 class="section__header">Nasi klienci</h2>
-          <ul class="clients__icons">
+          <ul class="clients-icons">
             <li>
               <a class="client__icon">
                 <svg width="106" height="60">
@@ -406,7 +406,7 @@
           >
           <address>
             <ul class="footer-contacts">
-              <li class="footer__adress">
+              <li class="footer__contacts-item footer--adress">
                 m. Warszawa, Aleje Jerozolimskie 21
               </li>
               <li>
@@ -423,8 +423,8 @@
           </address>
         </div>
         <div class="footer-media">
-          <h3 class="header__media-footer">DOŁĄCZ DO NAS</h3>
-          <ul class="social__media-footer">
+          <h3 class="header-media-footer">DOŁĄCZ DO NAS</h3>
+          <ul class="social-media-footer">
             <li class="social__media-icons">
               <a class="social__media-link">
                 <svg class="social__media-icon" width="20" height="20">
@@ -464,9 +464,9 @@
               name="email"
               placeholder="E-mail"
             />
-            <button type="submit" class="submit__footer">
+            <button type="submit" class="submit-footer">
               Zapisz się
-              <svg class="icon__send-footer" width="24" height="24">
+              <svg class="icon__submit-footer" width="24" height="24">
                 <use href="images/icons.svg#icon-send"></use>
               </svg>
             </button>
@@ -476,11 +476,11 @@
     </footer>
     <div data-modal class="backdrop is-hidden">
       <div class="modal">
-        <button data-modal-close type="button" class="button__close-modal">
+        <button data-modal-close type="button" class="modal__button-close">
           X
         </button>
-        <h3 class="header__modal">Zostaw swoje dane w formularzu poniżej</h3>
-        <form class="form__list-modal">
+        <h3 class="header-modal">Zostaw swoje dane w formularzu poniżej</h3>
+        <form class="form-list-modal">
           <label class="form__label-modal" for="name">
             Imie
             <input class="input__modal" type="text" name="text" />
@@ -522,7 +522,7 @@
             <a class="link__checkbox" href="#">Regulamin</a> i
             <a class="link__checkbox" href="#">Politykę Prywatności.</a>
           </label>
-          <button class="button-modal" type="submit">Wyślij</button>
+          <button class="submit-modal" type="submit">Wyślij</button>
         </form>
       </div>
     </div>

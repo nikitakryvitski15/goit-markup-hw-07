@@ -3,14 +3,14 @@
   font-size: 14px;
   line-height: 1.7;
 }
-.footer__adress {
+.footer__contacts-item {
+  color: var(--contacts-color);
+}
+.footer--adress {
   font-size: 14px;
   line-height: 1.7;
   color: var(--white-color);
   margin-top: 20px;
   font-style: normal;
   margin-bottom: 9px;
-}
-.footer__contacts-item {
-  color: var(--contacts-color);
 }
