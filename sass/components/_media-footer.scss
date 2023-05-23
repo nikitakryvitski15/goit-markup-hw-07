@@ -1,7 +1,7 @@
-.footer-media {
+.social-media {
   margin-top: 12px;
 }
-.header-media-footer {
+.social--media__title {
   font-family: var(--font-primary);
   font-weight: 700;
   font-size: 14px;
@@ -13,11 +13,11 @@
   display: flex;
   margin-top: 20px;
 }
-.social__media-icons {
+.social-media__icons {
   margin-right: 10px;
   cursor: pointer;
 }
-.social__media-link {
+.social-media__link {
   display: flex;
   border-radius: 50%;
   background-color: var(--icon-footer-color);
@@ -32,6 +32,6 @@
     background-color: var(--hover-color);
   }
 }
-.social__media-icon {
+.social-media__icon {
   fill: var(--white-color);
 }

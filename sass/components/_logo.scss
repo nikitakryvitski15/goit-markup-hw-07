@@ -5,10 +5,11 @@
   line-height: 1.3;
   color: var(--hover-color);
   margin-right: 93px;
-}
-.logo--dark {
-  color: var(--studio-color);
-}
-.studio--white {
-  color: var(--white-color);
+
+  &--dark {
+    color: var(--studio-color);
+  }
+  &--light {
+    color: var(--white-color);
+  }
 }

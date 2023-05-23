@@ -1,0 +1,10 @@
+.section {
+  padding: 94px 0;
+
+  &--team {
+    background-color: var(--background-button);
+  }
+  &--padding {
+    padding-top: 0;
+  }
+}

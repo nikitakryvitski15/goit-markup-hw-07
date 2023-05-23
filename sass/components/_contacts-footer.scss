@@ -1,10 +1,13 @@
-.footer-contacts a {
+.footer__contacts a {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
 }
 .footer__contacts-item {
   color: var(--contacts-color);
+  display: flex;
+  flex-direction: column;
+  padding-top: 9px;
 }
 .footer--adress {
   font-size: 14px;

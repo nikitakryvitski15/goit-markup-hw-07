@@ -1,20 +1,21 @@
 .lorems {
   display: flex;
   justify-content: space-between;
-}
-.icon__lorems {
-  width: 270px;
-  height: 120px;
-}
-.header__lorems {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.1;
-  padding-top: 30px;
-  padding-bottom: 10px;
-}
-.content__lorems {
-  font-size: 14px;
-  line-height: 1.7;
-  color: var(--contacts-color);
+
+  &__icon {
+    width: 270px;
+    height: 120px;
+  }
+  &__header {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.1;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  &__content {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--contacts-color);
+  }
 }

@@ -1,0 +1,17 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  &--header {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-primary);
+    font-weight: 500;
+  }
+  &--footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
