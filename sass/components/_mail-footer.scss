@@ -38,8 +38,7 @@
   display: inline-flex;
   align-items: center;
   cursor: pointer;
-
-  .footer-submit__icon {
+  &__icon {
     margin-left: 24px;
   }
 }

@@ -1,9 +1,3 @@
-.section__header {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.1;
-  text-align: center;
-}
 .clients {
   display: flex;
   justify-content: space-between;
@@ -24,7 +18,6 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
-
   &:hover,
   &:focus {
     border: 1px solid var(--hover-color);
